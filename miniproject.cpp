@@ -38,7 +38,7 @@ int main() {
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
         
         std::string prompt;
-        std::cout << "\nEnter your prompt: ";
+        std::cout << "\nEnter your prompt: ";  
         std::getline(std::cin, prompt);
 
         if(prompt.empty()) {
