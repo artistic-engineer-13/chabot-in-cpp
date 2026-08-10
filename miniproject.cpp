@@ -30,7 +30,7 @@ int main() {
     // Initialize curl
     curl_global_init(CURL_GLOBAL_DEFAULT);
     CURL* curl = curl_easy_init();
-    std::string response;
+    std::string response;      
 
     if (curl) {
         // Disable SSL verification
